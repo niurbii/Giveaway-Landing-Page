@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* 
+{
+    box-sizing: border-box;
+}
+
+body 
+{ 
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('images/background.png');
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    height: 60vh;
+    width: 50%;
+    padding: 170px 100px 80px 130px;
+    color: #6A6A6A;
+}
+.text1, .text2 {
+    padding-bottom: 20px;
+}
+.text1 h1{
+    font-size: 4rem;
+}
+.text2 h6{
+    font-size: 1rem;
+    line-height: 1.8;
+}
+.btn {
+    border-radius: 50px;
+    width: 15em;
+    background-color: #FF00A5;
+    border: none;
+    height: 2.5em;
+}
+.btn h5{
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.right {
+    height: 60vh;
+    width: 50%;
+}
+.right img {
+    height: 21em;
+    width: 31em;
+}
+.image{
+    padding: 160px 0px 80px 130px;
+}
+
+.secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+.countdown h1 {
+    font-size: 5rem;
+    word-spacing: 20px;
+    color: #1400FF;
+}
+.countdown h5{
+    word-spacing: 96.5px;
+}
+.countdown h4 {
+    padding: 20px 0 0 150px;
+}
+
