@@ -69,15 +69,15 @@ body
     justify-content: center;
     padding-top: 80px;
 }
-.countdown h1 {
+.countdown #countdown {
     font-size: 5rem;
     word-spacing: 20px;
     color: #1400FF;
 }
 .countdown h5{
-    word-spacing: 96.5px;
+    word-spacing: 120px;
 }
 .countdown h4 {
-    padding: 20px 0 0 150px;
+    padding: 10px 0 0 170px;
 }
 
