@@ -10,7 +10,6 @@ body
     font-family: 'Poppins', sans-serif;
     margin: 0;
     height: 100vh;
-    overflow: hidden;
     background-image: url('images/background.png');
     background-repeat: no-repeat, repeat;
     background-position: center;
@@ -83,6 +82,9 @@ body
 
 /* Responsive */
 @media (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
     .text1 h1{
         font-size: 2.5rem;
         text-align: center;
@@ -120,5 +122,30 @@ body
     .right img {
         height: 13em;
         width: 20em;
+    }
+    .countdown #countdown {
+        font-size: 2rem;
+        word-spacing: 10px;
+    }
+    .countdown {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .countdown h5{
+        word-spacing: 40px;
+        font-size: 0.7rem;
+    }
+    .clock{
+        height: 50px;
+    }
+    .secondary {
+        padding-top: 10px;
+    }
+    .countdown h4 {
+        padding: 10px 0 20px 0px;
+        font-size: 1rem;
+        text-align: center;
     }
 }
