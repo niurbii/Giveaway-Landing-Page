@@ -1,5 +1,5 @@
 //create variable to store the date we waant the countdown to be over at
-var finalDate = new Date("Mar 1, 2021 12:12:12").getTime();
+var finalDate = new Date("Apr 1, 2021 12:12:12").getTime();
 
 //update countdown by 1 sec
 var t = setInterval(function() {
